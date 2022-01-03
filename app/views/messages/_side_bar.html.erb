@@ -1,5 +1,18 @@
 <div class="side-header">
+  <div class="side-header-user-name"><%= link_to "Tom", "#" %></div>
+  <div class="create-room"><%= link_to "チャットを作成する", "#" %></div>
 </div>
 
 <div class="side-rooms">
+  <div class="room-list-container">
+    <ul class="room-list">
+      <% 15.times do |i| %>
+        <div class="room">
+          <li class="room-name">
+            <%= link_to "room#{i + 1}", "#" %>
+          </li>
+        </div>
+      <% end %>
+    </ul>
+  </div>
 </div>
