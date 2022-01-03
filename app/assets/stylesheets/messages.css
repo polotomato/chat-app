@@ -82,6 +82,33 @@
   padding-top: 46px;
   padding-left: 40px;
   padding-right: 40px;
+  overflow: scroll;
+}
+
+.message-container {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.name-and-date-container {
+  display: flex;
+}
+
+.speaker-name {
+  font-size: 16px;
+  color: #434A54;
+  margin-bottom: 10px;
+}
+
+.message-date {
+  color: #999;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.message-text {
+  color: #434A54;
+  font-size: 14px;
 }
 
 .chat-form {
