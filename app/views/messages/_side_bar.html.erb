@@ -1,5 +1,5 @@
 <div class="side-header">
-  <div class="side-header-user-name"><%= link_to "Tom", "#" %></div>
+  <div class="side-header-user-name"><%= link_to current_user.name, edit_user_path(current_user) %></div>
   <div class="create-room"><%= link_to "チャットを作成する", "#" %></div>
 </div>
 
