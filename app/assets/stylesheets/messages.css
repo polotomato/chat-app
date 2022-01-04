@@ -94,7 +94,7 @@
   display: flex;
 }
 
-.speaker-name {
+.message-name {
   font-size: 16px;
   color: #434A54;
   margin-bottom: 10px;
@@ -111,8 +111,46 @@
   font-size: 14px;
 }
 
-.chat-form {
+.form-chat {
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+  display: flex;
+}
+
+.input-field-container {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.input-field {
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  border-style: none;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-submit {
+  height: 50px;
+  background-color: #38AEF0;
+  color: white;
+  font-size: 16px;
+  padding: 0 20px;
+  border-style: none;
+  margin-left: 15px;
 }

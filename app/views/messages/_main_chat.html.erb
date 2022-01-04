@@ -12,7 +12,7 @@
     <% 5.times do |i| %>
       <div class="message-container">
         <div class="name-and-date-container">
-          <div class="speaker-name"><%= "Tom#{i + 1}" %></div>
+          <div class="message-name"><%= "Tom#{i + 1}" %></div>
           <div class="message-date">2020/3/31(Wed) 12:34:56</div>
         </div>
         <div class="message-text">おはよう</div>
@@ -21,5 +21,13 @@
   </ul>
 </div>
 
-<div class="chat-form">
+<div class="form-chat">
+  <div class="input-field-container">
+    <input type="text" placeholder="type a message" class="input-field">
+    <label class="form-image">
+      <span class="image-file">画像</span>
+      <input type="file" class="hidden">
+    </label>
+  </div>
+  <input type="submit" value="送信" class="form-submit">
 </div>
