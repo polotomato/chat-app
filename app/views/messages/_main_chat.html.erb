@@ -12,7 +12,7 @@
     <% 5.times do |i| %>
       <div class="message-container">
         <div class="name-and-date-container">
-          <div class="message-name"><%= "Tom#{i + 1}" %></div>
+          <div class="message-name"><%= "#{current_user.name}#{i + 1}" %></div>
           <div class="message-date">2020/3/31(Wed) 12:34:56</div>
         </div>
         <div class="message-text">おはよう</div>
