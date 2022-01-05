@@ -111,10 +111,14 @@
   font-size: 14px;
 }
 
-.form-chat {
+.chat-bottom {
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+}
+
+.form-chat {
+  height: 100%;
   display: flex;
 }
 
