@@ -11,6 +11,7 @@ class RoomsController < ApplicationController
     if @room.save
       redirect_to root_path
     else
+      #redirect_to new_room_path
       render :new
     end
   end
